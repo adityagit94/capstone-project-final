@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $pdo = null;
         $stmt = null;
-        header("Location:../search.php");
+        header("Location:../worker_.php");
         die();
 
     } catch (PDOException $e) {
